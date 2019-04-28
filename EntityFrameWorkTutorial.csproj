@@ -2,7 +2,49 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190427190612_UpdatedStudentClassAndCreatedGradeClass.cs" />
+    <Compile Remove="Migrations\20190427190612_UpdatedStudentClassAndCreatedGradeClass.Designer.cs" />
+    <Compile Remove="Migrations\20190427190654_UpdatedStudentClassAndCreatedGradeClass.cs" />
+    <Compile Remove="Migrations\20190427190654_UpdatedStudentClassAndCreatedGradeClass.Designer.cs" />
+    <Compile Remove="Migrations\20190427190739_UpdatedStudentClassAndCreatedGradeClass.cs" />
+    <Compile Remove="Migrations\20190427190739_UpdatedStudentClassAndCreatedGradeClass.Designer.cs" />
+    <Compile Remove="Migrations\20190428093000_CreatedContactEntity.cs" />
+    <Compile Remove="Migrations\20190428093000_CreatedContactEntity.Designer.cs" />
+    <Compile Remove="Migrations\20190428093241_CreateSchoolContext.cs" />
+    <Compile Remove="Migrations\20190428093241_CreateSchoolContext.Designer.cs" />
+    <Compile Remove="Migrations\20190428093414_CreateSchoolContext.cs" />
+    <Compile Remove="Migrations\20190428093414_CreateSchoolContext.Designer.cs" />
+    <Compile Remove="Migrations\20190428144726_CreateSchoolDatabaseEntity.cs" />
+    <Compile Remove="Migrations\20190428144726_CreateSchoolDatabaseEntity.Designer.cs" />
+    <Compile Remove="Migrations\20190428144912_CreateSchoolDatabaseEntity.cs" />
+    <Compile Remove="Migrations\20190428144912_CreateSchoolDatabaseEntity.Designer.cs" />
+    <Compile Remove="Migrations\20190428153126_CreateSchoolDatabaseEntity.cs" />
+    <Compile Remove="Migrations\20190428153126_CreateSchoolDatabaseEntity.Designer.cs" />
+    <Compile Remove="Migrations\20190428153251_CreateSchoolDatabaseEntity.cs" />
+    <Compile Remove="Migrations\20190428153251_CreateSchoolDatabaseEntity.Designer.cs" />
+    <Compile Remove="Migrations\20190428153357_CreateSchoolDatabaseEntity.cs" />
+    <Compile Remove="Migrations\20190428153357_CreateSchoolDatabaseEntity.Designer.cs" />
+    <Compile Remove="Migrations\20190428170139_CreateSchoolDatabaseEntity.cs" />
+    <Compile Remove="Migrations\20190428170139_CreateSchoolDatabaseEntity.Designer.cs" />
+    <Compile Remove="Migrations\20190428170507_CreateSchoolDatabaseEntity.cs" />
+    <Compile Remove="Migrations\20190428170507_CreateSchoolDatabaseEntity.Designer.cs" />
+    <Compile Remove="Migrations\20190428171016_CreateSchoolDatabaseEntity.cs" />
+    <Compile Remove="Migrations\20190428171016_CreateSchoolDatabaseEntity.Designer.cs" />
+    <Compile Remove="Migrations\20190428171704_CreateSchoolDatabaseEntity.cs" />
+    <Compile Remove="Migrations\20190428171704_CreateSchoolDatabaseEntity.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
+  </ItemGroup>
 
 </Project>

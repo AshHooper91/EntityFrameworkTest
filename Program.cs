@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using EntityFrameWorkTutorial.School;
+using Microsoft.EntityFrameworkCore;
 
 namespace EntityFrameWorkTutorial
 {
@@ -6,7 +10,7 @@ namespace EntityFrameWorkTutorial
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Do Something With The Entity Models
         }
     }
 }
